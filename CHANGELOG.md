@@ -2,8 +2,13 @@
 
 ## 🚧 Current - Work in progress
 ### 🔀 Merges
-
+*  Merge pull request #4 from leoviana00/feature-infra-prov-vms [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/81e8e520d0ead1274c9e270dffcc6e68ebb5934e)
 ### 🚀 Commits
+*  docs(📚 CHANGELOG): update release notes [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/ee203bc26aaa47b774110abee5eee7527a5abb52)
+*  feat(ignore): add gitignore [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/26008844e651492d49ee75cdbe30303ae25c09a9)
+*  feat(vms): add vagrrantfile [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/ccaf8b612eba366de13cce06b96ffceb739a7c62)
+*  feat(vms): script para auxiliares para provisionamento das vms [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/caf1d7dded91e1fdaa4276a872994ff068667024)
+*  feat(vms): makefile para auxilio do provisionamento [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/1f0d0d6d51fc15001bfbc907a397a1f9b1d93d61)
 
 
 
