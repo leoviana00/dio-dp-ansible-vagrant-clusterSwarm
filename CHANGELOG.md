@@ -2,6 +2,14 @@
 
 ## 🚧 Current - Work in progress
 ### 🔀 Merges
+
+### 🚀 Commits
+
+
+
+## 🔖 1.1.0 - (2024-10-25)
+### 🔀 Merges
+*  Merge pull request #6 from leoviana00/feature-infra-prov-vms [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/efc582ecccaf0db18d2019358eb4592c0d667459)
 *  Merge pull request #5 from leoviana00/feature-infra-prov-vms [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/badf867abdcf4172aa3849edb9b0d8c58e3593d6)
 *  Merge pull request #4 from leoviana00/feature-infra-prov-vms [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/81e8e520d0ead1274c9e270dffcc6e68ebb5934e)
 ### 🚀 Commits
@@ -12,6 +20,8 @@
 *  feat(vms): makefile para auxilio do provisionamento [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/1f0d0d6d51fc15001bfbc907a397a1f9b1d93d61)
 *  docs(📚 CHANGELOG): update release notes [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/4d145b8bc7e9c0dcc2b091fe0151f3f9f7db46ab)
 *  fix(vms): correcao vagrantfile - ssh keys [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/347d0b631da59074feb99a8421a8e1e7358e42cf)
+*  docs(📚 CHANGELOG): update release notes [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/900f4aade1b95a4787e91baae0f10379c1fe2a7f)
+*  feat(version): Versionando  fechando bloco de modificacoes para provisionamento das vms [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/c84ea3ba4bd0fd4a78895cbe2c2f10ef29978846)
 
 
 
@@ -39,8 +49,9 @@
 *  feat(bot): action para utomatizar a geracao de changelog [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/8419fe8e17f1a4a6b2f2a2f63a46b520b681a521)
 ## 📝 Metadata
 ```
-This version -------- 1.0.0
+This version -------- 1.1.0
+1.0.0
 0.0.0
-Previous version ---- 0.0.0
-Total commits ------- 6
+Previous version ---- 1.0.0
+Total commits ------- 18
 ```
