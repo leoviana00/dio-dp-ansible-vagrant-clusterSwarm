@@ -2,6 +2,14 @@
 
 ## 🚧 Current - Work in progress
 ### 🔀 Merges
+
+### 🚀 Commits
+
+
+
+## 🔖 2.0.0 - (2024-10-25)
+### 🔀 Merges
+*  Merge pull request #11 from leoviana00/feature-doc-challenge [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/fcb42964141e10c36fd4805129df83580d613c80)
 *  Merge pull request #10 from leoviana00/feature-doc-challenge [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/bf50d64ebb5ecfad4e96bde7b8c8c8b8295fd45e)
 *  Merge pull request #9 from leoviana00/feature-doc-challenge [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/c806c4a6f75480a6f65ea3f1e6521b3246b2b2f8)
 ### 🚀 Commits
@@ -9,6 +17,8 @@
 *  docs(challenge): documentacao do desafio [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/1bbf1577d4bb845832c26d83f1b7f45b066b7e4f)
 *  docs(📚 CHANGELOG): update release notes [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/f48908d78407782819938bfd2180cb463e5a2ab9)
 *  feat(challenge): update readme [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/34209e9320998d85e3862c702478ad7c5072af9e)
+*  docs(📚 CHANGELOG): update release notes [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/e778cc4831962ffd121eceec855d0a5491f62f4f)
+*  docs(version): tagueamento e versionamento do bloco de alteracao da doc [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/0f03b71a6fe8648b5c82ab2c34787ea3273021de)
 
 
 
@@ -71,10 +81,11 @@
 *  feat(bot): action para utomatizar a geracao de changelog [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/8419fe8e17f1a4a6b2f2a2f63a46b520b681a521)
 ## 📝 Metadata
 ```
-This version -------- 1.2.0
+This version -------- 2.0.0
+1.2.0
 1.1.0
 1.0.0
 0.0.0
-Previous version ---- 1.1.0
-Total commits ------- 29
+Previous version ---- 1.2.0
+Total commits ------- 38
 ```
