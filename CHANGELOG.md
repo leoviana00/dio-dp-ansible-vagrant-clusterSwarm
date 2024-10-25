@@ -2,6 +2,14 @@
 
 ## 🚧 Current - Work in progress
 ### 🔀 Merges
+
+### 🚀 Commits
+
+
+
+## 🔖 1.2.0 - (2024-10-25)
+### 🔀 Merges
+*  Merge pull request #8 from leoviana00/feature-ansible-prov-configs [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/d22aeaec650df5358fbc583710b1e3f739d43623)
 *  Merge pull request #7 from leoviana00/feature-ansible-prov-configs [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/7e60dd0dbcc1f7ed0770390caa21a99da7d58629)
 ### 🚀 Commits
 *  docs(📚 CHANGELOG): update release notes [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/4440e48449cb42b873a74bc7c6932789c0afdf1e)
@@ -11,6 +19,8 @@
 *  feat(consfigs): add roles de config [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/aff14bff383332f71fba14cbd65e8a849aba4fb8)
 *  feat(configs): add rules de configs [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/ccd6cce9bea172df177444520df96e378199fd3c)
 *  feat(configs): add arquivo de inventario [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/b5dc33fc1cca674b79ed6fc8013172fb5344dbaf)
+*  docs(📚 CHANGELOG): update release notes [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/b3207a62228904d8de1ab1819a0439e1c6c806e3)
+*  feat(vrsion): tagamento e versionamento prov configs [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/ae4b77fe0084f42e39dcc325aee6886ea45bd2f0)
 
 
 
@@ -56,9 +66,10 @@
 *  feat(bot): action para utomatizar a geracao de changelog [View](https://github.com/leoviana00/dio-dp-ansible-vagrant-clusterSwarm/commits/8419fe8e17f1a4a6b2f2a2f63a46b520b681a521)
 ## 📝 Metadata
 ```
-This version -------- 1.1.0
+This version -------- 1.2.0
+1.1.0
 1.0.0
 0.0.0
-Previous version ---- 1.0.0
-Total commits ------- 18
+Previous version ---- 1.1.0
+Total commits ------- 29
 ```
