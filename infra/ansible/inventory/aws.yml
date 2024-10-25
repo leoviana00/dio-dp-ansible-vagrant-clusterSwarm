@@ -1,0 +1,20 @@
+---
+all:
+  vars:
+    ambiente: aws
+
+  hosts:
+    master:
+      ansible_host: 
+    worker:
+      ansible_host: 
+
+
+  children:
+    master:
+      hosts:
+        master:
+        
+    worker:
+      hosts:
+        worker:
