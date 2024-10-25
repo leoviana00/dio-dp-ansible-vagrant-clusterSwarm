@@ -17,4 +17,4 @@ Neste desafio de projeto iremos criar um Cluster Swarm local, utilizando máquin
 - Computador com SO de sua preferência(Windows, Linux, Mac OS);
 
 ## ☑️ Resolução do desafio
-- [x][Resolução do desafio](./infra/ansible/Readme.md)
+- [x] [Resolução do desafio](./infra/ansible/Readme.md)
