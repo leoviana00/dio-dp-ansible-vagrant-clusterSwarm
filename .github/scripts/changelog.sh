@@ -29,14 +29,14 @@ git tag --sort=-creatordate | while read TAG ; do
     echo
     if [ $NEXT ];then
         tag_date=$(git log -1 --pretty=format:'%ad' --date=short ${TAG})
-        echo "## $NEXT - ($tag_date)"
+        echo "## 🔖 $NEXT - ($tag_date)"
     else
-        echo "## Current"
+        echo "## 🚧 Current - Work in progress"
     fi  
-    echo "## Merges"
+    echo "### 🔀 Merges"
     GIT_PAGER=cat git log ${TAG}...${NEXT} --merges --pretty=format:"*  %s [View]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commits/%H)"
     echo 
-    echo "## Commits"
+    echo "### 🚀 Commits"
     GIT_PAGER=cat git log ${TAG}...${NEXT} --pretty=format:"*  %s [View]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commits/%H)" --reverse | grep -v Merge
     NEXT=$TAG
     printf "\n\n"
@@ -44,11 +44,11 @@ done
 FIRST=$(git tag -l --sort=v:refname | head -1)
 tag_date=$(git log -1 --pretty=format:'%ad' --date=short ${FIRST})
 echo
-echo "# $FIRST - ($tag_date)"
-echo "## Merges"
+echo "## 🔖 $FIRST - ($tag_date)"
+echo "### 🔀 Merges"
 GIT_PAGER=cat git log ${FIRST} --merges --pretty=format:"*  %s [View]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commits/%H)"
 echo 
-echo "## Commits"
+echo "### 🚀 Commits"
 GIT_PAGER=cat git log ${FIRST} --pretty=format:"*  %s [View]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commits/%H)" --reverse | grep -v Merge
 
 
@@ -60,7 +60,7 @@ metadata
 function commitChangelog(){
 
 git add CHANGELOG.md 
-git commit -m "docs(CHANGELOG): update release notes"
+git commit -m "docs(📚 CHANGELOG): update release notes"
 git push origin HEAD:main
 
 }
