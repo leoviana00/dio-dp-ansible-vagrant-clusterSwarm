@@ -2,7 +2,7 @@
 
 <p align="center">
   <img alt="Docker" src="https://img.shields.io/static/v1?label=Docker&message=DockerSwarm&color=8257E5&labelColor=000000"/>
-  <img alt="Ansible" src="https://img.shields.io/static/v1?label=Cluster&message=Ansible&color=FF0000&labelColor=000000"/>
+  <img alt="Ansible" src="https://img.shields.io/static/v1?label=IAC&message=Ansible&color=FF0000&labelColor=000000"/>
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
