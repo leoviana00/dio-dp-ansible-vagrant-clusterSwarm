@@ -1,0 +1,28 @@
+- name: Initialization Cluster Dockr Swarm
+  hosts: "{{ varlocal | default('master') }}"
+  remote_user: "{{ ansible_user }}"
+  become: true
+  gather_facts: False
+  tags: init
+  roles:
+    - dependecies_configure
+    - master_configure
+
+- name: Configure Node
+  hosts: "{{ varlocal | default('worker') }}"
+  remote_user: "{{ ansible_user }}"
+  become: true
+  gather_facts: False
+  tags: add
+  roles:
+    - dependecies_configure
+    - worker_configure
+
+- name: Check Node
+  hosts: "{{ varlocal | default('master') }}"
+  remote_user: "{{ ansible_user }}"
+  become: true
+  gather_facts: False
+  tags: check
+  roles:
+    - check_cluster

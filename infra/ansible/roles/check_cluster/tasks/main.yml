@@ -1,0 +1,11 @@
+---
+#-----------------------------------
+# CHECK CLUSTER
+#-----------------------------------
+- name: Check Cluster Swarm
+  shell: "docker node ls"
+  register: swarm_info
+
+- name: Cluster Swarm Info
+  ansible.builtin.debug:
+    var: swarm_info.stdout_lines   
